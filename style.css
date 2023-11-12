@@ -1,0 +1,73 @@
+:root {
+  --brand-primary: #0768ac;
+  --brand-secondary: #03c180;
+  --bg_default: #ffffff;
+  --bg_body: #f0f9ff;
+  --lines-color: #dddddd;
+  --body-text: #333333;
+  --heart-color: #dc143c;
+}
+.top-flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(17, 15, 15, 0.9); /* To be deleted later */ /* To be deleted later */
+}
+.web-topics {
+  margin-left: 70px;
+  color: var(--brand-primary);
+  font-family: "Nunito Sans", sans-serif;
+}
+.bar-btns {
+  margin-right: 70px;
+}
+.btn-line1 {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.3); /* Adjust the color and opacity as needed */
+  padding: 6px 18px;
+  border-style: solid;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+}
+.courses-layout {
+  background-color: #eff9ff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2px 50px;
+}
+.course-card {
+  width: 18%;
+  height: 320px;
+  background-color: white;
+  margin-top: 50px;
+  margin: 12px 12px;
+  border-radius: 10px;
+}
+
+.card-img {
+  height: 22vh;
+  object-fit: cover;
+  max-width: 100%;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.course-type {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+}
+.title {
+  font-family: "Nunito Sans";
+  font-weight: 600;
+}
+.author-name {
+  font-family: "Nunito Sans";
+  font-weight: 200;
+}
