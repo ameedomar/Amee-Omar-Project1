@@ -57,8 +57,15 @@ body {
 .welcome-green-part {
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: var(--bg_default);
+  height: 110px;
+  position: relative;
+  overflow: hidden;
 }
-
+.welcoming-container {
+  margin-top: 20px;
+}
 .h2-welcoming {
   color: var(--brand-secondary);
 }
@@ -66,7 +73,29 @@ body {
 .p-welcoming {
   height: 13px;
 }
-
+.green-left-side {
+  position: absolute;
+  left: -100px;
+  top: -45%;
+  height: 69%;
+  width: 110%;
+  background: linear-gradient(
+    to right,
+    var(--brand-primary) 11%,
+    var(--brand-secondary)
+  );
+  transform: rotate(-2.55deg);
+  z-index: 3;
+}
+.green-right-side {
+  position: absolute;
+  top: -50%;
+  height: 80px;
+  width: 100%;
+  right: -100px;
+  background: linear-gradient(var(--brand-secondary), var(--brand-secondary));
+  transform: rotate(3.5deg);
+}
 /******Search bar*******/
 .search-container {
   display: flex;
